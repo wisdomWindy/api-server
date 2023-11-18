@@ -1,0 +1,5 @@
+/tests/**/*
+/cypress/**/*
+/coverage/
+/**/__tests__/*
+node_modules/
