@@ -30,6 +30,8 @@ app.use(
   expressjwt({
     secret: config.apisecret,
     algorithms: ['HS256']
+  }).unless({
+    path: [/\/(example)/gi]
   })
 );
 
